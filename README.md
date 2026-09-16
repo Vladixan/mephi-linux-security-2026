@@ -2,6 +2,7 @@
 Training on the OS security program, student №374210
 
 Раздел 1. Создание пользователя
+
   groupadd students // для создания группы с названием "students".
   useradd -u 1234 -G students // для добавления пользователя "user1" с идентификатором 1234, который будет входить в группу "students".  
   passwd user1 // задан пароль для пользователя "user1".
